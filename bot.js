@@ -34,7 +34,7 @@ client.on('ready', () => {
   console.log('╔[════════════]╗')
   console.log('Created By: Revenge')
   console.log('╚[════════════]╝')
-client.user.setActivity("r#help | By Revenge",{type: 'WATCHING'});
+client.user.setActivity("Server 1|By|Vairos ",{type: 'WATCHING'});
 console.log('Done The Watching Setup Completed')
 	
 });
@@ -78,17 +78,13 @@ client.on("message", message => {//new msg event
 r#set 
  - لإنشاء رتبة الرينبو وبدا الرينبو
 - To create the role of the Rainbow & Start The Rainbow
-r#inv 
-- لدعوة البوت
-- To Invite the bot
 خطوات لو الرتبة م أشتغلت .!!
 1- ضع رتبة الرينبو فوق الالوان أو الرتب الملونه لو فيه
 2- ضع رتبة البوت فوق رتبة الرينبو
 The steps of the role did not worked .!!
 1- Place the role of the Rainbow above the colors or colored ranks if it
 2- Put the bot role above the role of the Rainbow 
-رآبط البوت - Bot Invite link
-- hhttp://cutt.us/HPkx6
+
 =====================🌈 RainbowBot. 🌈=====================
 **`)
 message.author.sendEmbed(rainembed)//send the embed to the author dm
